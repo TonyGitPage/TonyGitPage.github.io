@@ -1,3 +1,7 @@
+@import 'fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,10 +9,13 @@
     font-family: 'Poppins';
 }
 
-@import 'fonts';
-
-h1 {
-    font-size: 100px;
-    font-weight: 700;
-    color: aqua;
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/sidepanel';
+@import 'blocks/menu';
