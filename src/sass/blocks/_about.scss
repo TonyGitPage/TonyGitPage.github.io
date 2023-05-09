@@ -1,7 +1,6 @@
 .about {
     padding-top: 120px;
-    padding-bottom: 120px;
-    background-color: #121212;
+    background-color: $back-color;
     &__wrapper {
         display: grid;
         grid-template-columns: 400px 570px;
