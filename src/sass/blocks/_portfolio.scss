@@ -1,6 +1,5 @@
 .portfolio {
     padding-top: 120px;
-    padding-bottom: 100px;
     background-color: $back-color;
     &__subtitle {
         position: relative;
@@ -47,7 +46,7 @@
         }
         &:hover {
             filter: contrast(115%);
-            transform: scale(1.01);
+            transform: scale(1.02);
         }
     }
 }
