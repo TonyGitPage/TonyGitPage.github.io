@@ -1,0 +1,33 @@
+* {
+    font-family: 'Museo Sans Cyrl';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+@import 'animations';
+@import 'fonts';
+@import 'variables';
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/consultation';
+@import 'blocks/titles.scss';
+@import 'blocks/forms.scss';
+@import 'blocks/carousel.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/review.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/modal.scss';
+@import 'blocks/pageup.scss';
+@import 'media';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    &_form {
+        display: flex;
+        flex-direction: column;
+    }
+}
