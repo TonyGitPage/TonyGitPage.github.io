@@ -15,4 +15,12 @@ const counters = document.querySelectorAll('.skills__rating-counter'),
 
 counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
-})
+});
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 500) {
+        $('.pageup').fadeIn();
+    } else {
+        $('.pageup').fadeOut();
+    }
+});
